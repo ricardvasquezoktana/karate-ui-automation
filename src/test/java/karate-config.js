@@ -4,15 +4,16 @@ function fn() {
   if (!env) {
     env = 'dev';
   }
+  
   var config = {
     env: env,
-    myVarName: 'someValue'
+    urlTest: 'https://www.google.com'
   }
+
   if (env == 'dev') {
-    // customize
-    // e.g. config.foo = 'bar';
-  } else if (env == 'e2e') {
-    // customize
+    //config.urlTest = "https://www.facebook.com"
+  } else if (env == 'prod') {
+    config.urlTest = "https://www.facebook.com"
   }
   return config;
 }
