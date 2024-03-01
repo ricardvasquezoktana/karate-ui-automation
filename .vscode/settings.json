@@ -3,7 +3,6 @@
     "karateRunner.karateRunner.default": " ",
     "karateRunner.buildDirectory.cleanBeforeEachRun": true,
     "karateRunner.karateRunner.promptToSpecify": false,
-    "karateRunner.karateRunner.commandLineArgs": "\"-Dkarate.options=--tags @debug\"",
-    "karateRunner.core.environment": "prod"
+    "karateRunner.core.environment": "dev"
     
 }

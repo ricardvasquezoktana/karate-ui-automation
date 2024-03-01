@@ -14,6 +14,7 @@ class ExamplesTest {
     // sudo safaridriver --enable
     // mvn test "-Dkarate.options=--tags @debug"
     // setting of karate runner and karate
+    // Gitignore
 
     @Test
     void testParallel() {
